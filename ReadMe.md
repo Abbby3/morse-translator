@@ -1,57 +1,6 @@
-# Morse Code Translator
+This is a simple web application that translates morse code to text and vice versa.
+It was designed to have test cases for the translating logic in mind, and has a simple soft pink and blue colour scheme with rounded visuals, similar to that of other projects of mine.
 
-## Outline
+Current features include text to morse translation, morse to text translation, simple error handling for characters that are not accounted for, and an interface that allows users to seamlessly type in text or morse without need of buttons to translate or swap between the two translations. In addition, the translations are dynamically updated with the user's typing.
 
-This task will require you to create a web page Morse Code translator.
-The User Interface will have to look good but should remain simple (additional features, ie. sounds, lights, etc, should only be added once the MVP has been completed.)
-
-## MVP
-
--   Create a user interface that allows the user to either input some English text or some Morse Code
--   Create JS functions that would allow the user to:
-
-    -   translate their English text into Morse Code
-    -   Morse Code into English text
-
--   Make sure to handle spaces properly (ie. there is 1 space between English words, but one space between Morse Code characters)
-
-- You will need to add test cases for your translating logic
-
-## Useful Resources:
-
--   [Iterate Object in JavaScript](https://www.javascripttutorial.net/object/iterate-object-in-javascript/)
--   [Looping through objects keys and values in Javascript?](https://flexiple.com/loop-through-object-javascript/)
-
-###
-
-```js
-// A to Z in Morse Code
-{
-   "A": ".-",
-   "B": "-...",
-   "C": "-.-.",
-   "D": "-..",
-   "E": ".",
-   "F": "..-.",
-   "G": "--.",
-   "H": "....",
-   "I": "..",
-   "J": ".---",
-   "K": "-.-",
-   "L": ".-..",
-   "M": "--",
-   "N": "-.",
-   "O": "---",
-   "P": ".--.",
-   "Q": "--.-",
-   "R": ".-.",
-   "S": "...",
-   "T": "-",
-   "U": "..-",
-   "W": ".--",
-   "X": "-..-",
-   "Y": "-.--",
-   "Z": "--.."
-}
-
-```
+Future features should include detailed errors and the ability to have text and morse errors at the same time without sacrificing the dynamic updates or seamless choice of translation. Future iterations should also include intelligent usage of capital letters when translating to text.
