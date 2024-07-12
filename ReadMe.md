@@ -1,6 +1,45 @@
-This is a simple web application that translates morse code to text and vice versa.
-It was designed to have test cases for the translating logic in mind, and has a simple soft pink and blue colour scheme with rounded visuals, similar to that of other projects of mine.
+# Morse Code Translator
 
-Current features include text to morse translation, morse to text translation, simple error handling for characters that are not accounted for, and an interface that allows users to seamlessly type in text or morse without need of buttons to translate or swap between the two translations. In addition, the translations are dynamically updated with the user's typing.
+## Snippets
 
-Future features should include detailed errors and the ability to have text and morse errors at the same time without sacrificing the dynamic updates or seamless choice of translation. Future iterations should also include intelligent usage of capital letters when translating to text.
+![UI Example](UI.png)
+
+## Description
+
+The Morse Code Translator is a web application that allows users to translate text between English and Morse Code. The application provides a simple and user-friendly interface for inputting English text or Morse Code, and includes JavaScript functions to handle the translation.
+
+### Tech Stack
+
+- HTML
+- CSS (SCSS)
+- JavaScript
+
+## Features
+
+- Input fields for English text and Morse Code.
+- Seamless translations.
+- Results display in corresponding input fields.
+
+## Build Steps
+
+1.  Clone the repository.
+
+```shell
+git clone https://github.com/Abbby3/morse-translator.git
+```
+
+2.  Navigate to the project directory.
+
+```shell
+cd morse-translator
+```
+
+4.  Run the application
+
+```shell
+start index.html
+```
+
+## Future Goals
+
+- Add sound effects for Morse Code playback.
